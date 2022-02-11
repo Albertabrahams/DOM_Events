@@ -93,6 +93,16 @@
 //     charSpan.innerText = lastName.value.length + "/40";
 // });
 
+// let firstname = document.getElementsByClassName("input--style-4")[0];
+// let char = document.getElementById("char");
+
+// firstname.addEventListener("keyup",()=>{
+//     char.innerText = firstname.value.length + "/30";
+//     if (char.innerText.length == "0"){
+//         char.style.backgroundColor = "blue"
+//     }
+// } )
+
 // // last name input value 0 olduğunda span gözükmesin!! --> Homework <--
 
 // let birthdayPicker = document.querySelector('[name=birthday]');
@@ -122,22 +132,26 @@
 // });
 
 
-let navbarStudents = document.querySelectorAll(".nav__link")[2];
-console.log(navbarStudents)
+// let navbarStudents = document.querySelectorAll(".nav__link")[2];
+// console.log(navbarStudents)
 
-let sayı = ()=> Math.round(Math.random()*256)
+// let sayı = ()=> Math.round(Math.random()*256)
 
-navbarStudents.addEventListener("mouseover", ()=>{
+// navbarStudents.addEventListener("mouseover", ()=>{
     
-    navbarStudents.style.backgroundColor = `rgb(${sayı()},${sayı()},${sayı()})`
-})
-navbarStudents.addEventListener("mouseout", ()=>{
+//     navbarStudents.style.backgroundColor = `rgb(${sayı()},${sayı()},${sayı()})`
+// })
+// navbarStudents.addEventListener("mouseout", ()=>{
     
-    navbarStudents.style.backgroundColor = "#ffffff"
-})
+//     navbarStudents.style.backgroundColor = "#ffffff"
+// })
 
 
 
+// let birthdayPicker = document.querySelector("[name=birthday");
+// birthdayPicker.addEventListener("change", ()=>{
+//     let year = new Date().getFullYear()- new Date(birthdayPicker.value).getFullYear();
+//     alert("You are "+ year + " years old!")
+// })
 
-
-
+// console.log(new Date(birthdayPicker.value))
