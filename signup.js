@@ -147,11 +147,17 @@
 // })
 
 
-
+// we did it addlistener
 // let birthdayPicker = document.querySelector("[name=birthday");
 // birthdayPicker.addEventListener("change", ()=>{
 //     let year = new Date().getFullYear()- new Date(birthdayPicker.value).getFullYear();
 //     alert("You are "+ year + " years old!")
 // })
 
-// console.log(new Date(birthdayPicker.value))
+
+// we did it with old method
+// let birthdayPicker = document.querySelector("[name=birthday");
+// birthdayPicker.onchange = ()=>{
+//     let year = new Date().getFullYear()- new Date(birthdayPicker.value).getFullYear();
+//     alert("You are "+ year + " years old!")
+// }
